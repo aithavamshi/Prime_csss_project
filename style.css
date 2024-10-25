@@ -1,0 +1,149 @@
+/* div{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.603)),url(./netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid; */
+ }
+div{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center left;
+ }
+ .first{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(0, 0, 0, 0.336)),url(./MLP.jpg);
+ }
+ .second{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(0, 0, 0, 0.336)),url(./TVOD_MLP_Right.jpg);
+ }
+ .container1,.container2{
+    width: 600px;
+    padding: 30px;
+    /* margin: 50px; */
+ }
+ h1,p{
+    margin: 20px;
+    color: white;
+    padding:10px;
+    font-size: 40px;
+    font-family: "Amazon Ember";
+ }
+ p{
+    font-size: 25px;
+   
+ }
+ button{
+    margin: 40px 0px 10px 20px;
+    width: 300px;
+    height: 45px;
+    background-color: #0f79af;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+ }
+ nav{
+   background-color:#00050d;
+   height: 50px;
+   padding-top: 10px;
+   box-shadow: 0px 0px 10px black;
+   /* border-radius: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              */
+   padding-bottom: 15px;
+   
+   
+}
+ul li{
+   display: inline;
+   /* border: solid; */
+   margin-left: 100px;
+   /* margin: auto; */
+   
+}
+a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 20PX;
+   /* padding-bottom: 30px; */
+}
+a:hover{
+   text-decoration: underline;
+text-shadow: 3px 0px black;
+}
+img{
+   width: 100px;
+   margin-top: 5px;
+}
+.photos{
+   height: 550px;
+   display: flex;
+   /* background-color: #0f79af; */
+}
+#content{
+   /* display: flex; */
+   width: 50%;
+   height: 100%;
+   /* float: left; */
+}
+
+#photo{
+   /* float: left; */
+   width: 50%;
+   height: 100%;
+}
+.channels{
+   width: 171.08px;
+   height: 118.06px;
+   margin: 5px;
+}
+.channels:hover{
+   box-shadow: 0px 0px 20px 5px black;
+   transform: scale(1,1);
+}
+.content1{
+   color: black;
+   /* font-family:  "Amazon Ember"; */
+   
+   line-height: 40px;
+   font-family: Arial, sans-serif;
+}
+#contenth1{
+   font-size: 34px;
+}
+#contentp{
+   font-size: 24px;
+   font-weight: 400;
+}
+.footer{
+   background-color: #222222;
+   height: 150px;
+   text-align: center;
+   padding: 20px;
+   /* display: block; */
+}
+#footerimg{
+   margin: auto;
+display: block;
+padding-bottom: 5px;
+}
+#footer{
+   padding: 20px;
+   /* font-weight: 300; */
+   font-size: small;
+   color: #79b8f3;
+   text-decoration: none;
+}
+#footer:hover{
+   text-shadow: none;
+   color: #007185;
+}  
+#footerp{
+   font-size: small;
+   color: #8197a4;
+}
